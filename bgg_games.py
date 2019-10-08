@@ -1,8 +1,8 @@
 import csv
 import time
-from boardgamegeek import BoardGameGeek
+from boardgamegeek import BGGClient
 
-bgg = BoardGameGeek()
+bgg = BGGClient()
 
 # first import the game id list
 f = open("bgg_game_ids.txt")
