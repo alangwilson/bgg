@@ -5,7 +5,7 @@ import time
 filename = 'bgg_game_ids.txt'
 f = open(filename, 'w')
 
-for i in range(1, 10):
+for i in range(1, 15):
 	time.sleep(2)
 	url = "https://boardgamegeek.com/sitemap_geekitems_boardgame_page_%d.xml" % i
 	r = requests.get(url)
